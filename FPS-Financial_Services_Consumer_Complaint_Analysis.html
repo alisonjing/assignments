@@ -125,6 +125,7 @@ $(document).ready(function () {
 </div>
 
 
+<p>knitr::opts_chunk$set(echo = TRUE)</p>
 <div id="objective-and-motivation" class="section level3">
 <h3>Objective and Motivation</h3>
 <p>We all have long term relationships with financial institutions from having checking/savings account to owning private loans. With so many options of insitutions and various products available on the market, choosing a ideal firm with top-notch customer service is essential for Americans to feel at ease in the decade followed by the 2007-2008 financial crisis and the Great Recession.</p>
@@ -182,14 +183,22 @@ $(document).ready(function () {
 </div>
 <div id="estimated-risks" class="section level3">
 <h3>Estimated risks</h3>
-<p>Since the data only contains complaints submitted to the CFPB, it is unlikely that the data fully reflects a financial insitution’s own complaint records, therefore the result may not necessarily reflect the insitution’s current state.</p>
+<p>Since the data only contains complaints submitted to the CFPB, it is unlikely that the data fully reflects a financial insitution’s own complaint records, therefore the result may not necessarily reflect the insitution’s current state. Another risk could be the data present across different institutions have relatively similar complaint statistics across different product/service, thus the causual analysis might be inconlusive, makes it difficult to rank the financial instituion’s customer satisfactions.</p>
 </div>
 <div id="proposed-project-timeline" class="section level3">
 <h3>Proposed project timeline</h3>
 <ol style="list-style-type: decimal">
-<li><p>Data Cleaning and Exploratory Data Analysis — This will take 7 days (1 week)</p></li>
-<li><p>Potentially utilize <em>RShiny</em> package for Data Visualization — This will take 3 days</p></li>
-<li><p>Research and perform ML modeling — This will take 2 weeks</p></li>
+<li>Data Cleaning and Exploratory Data Analysis — This will take 7 days (1 week)
+<ul>
+<li>Potentially utilize <em>RShiny</em> package for Data Visualization — This will take 3 days</li>
+</ul></li>
+<li>Research and perform ML modeling — This will take 2 weeks
+<ul>
+<li>Model specification</li>
+<li>Feature specification</li>
+<li>Calibration</li>
+</ul></li>
+<li>Project Deployment — This will take 1 week including documentation, model evalualtion and maintenance.</li>
 </ol>
 </div>
 

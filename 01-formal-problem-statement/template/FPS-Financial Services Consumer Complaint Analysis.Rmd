@@ -1,9 +1,11 @@
 ---
-title: "Formal Statement Problem: Analysis on CFPB'S Consumer Complaints Open Dataset"
+title: 'Formal Statement Problem: Analysis on CFPB''S Consumer Complaints Open Dataset'
 author: "Alison Jing Huang"
 date: "4/9/2018"
-output: html_document
+output:
+  html_document: default
 ---
+knitr::opts_chunk$set(echo = TRUE)
 
 ### Objective and Motivation
 We all have long term relationships with financial institutions from having checking/savings account to owning private loans. With so many options of  insitutions and various products available on the market, choosing a ideal firm with top-notch customer service is essential for Americans to feel at ease in the decade followed by the 2007-2008 financial crisis and the Great Recession.
@@ -17,7 +19,7 @@ An in-depth analysis using Data Science and Machine Learning techniques will hel
 
 The **`Consumer Financial Protection Bureau(CFPB)`** was a U.S government agency established under the **Consumer Protection Act**, also known as *Dodd-Frank Wall Street Reform Act* in July 2010. Its core mission is to watch out for American consumers in the market for consumer products and services, it would heighten government accountability by consolidating in one place responsibility of supervision and enforcement with respect to laws, and protect families from unfair, deceptive, and abusive financial practices.Its jurisdiction includes banks, credit unions, securities firms, payday lenders, mortage-servicing operations, foreclosure relief services, debt collections, and other financial companies operating in the United States. 
 
-####**The CFPB's primary focus includes**:
+#### **The CFPB's primary focus includes**:
 
 * Rooting out unfair, deceptive, or abusive acts or pratices by writing rules, supervising companies, and enforcing the law
 * Enforcing laws that outlaw discrimination in consumer finance
@@ -59,10 +61,22 @@ The datset is publicly available on [Data.gov](https://catalog.data.gov/dataset/
 One major used industry metrics for measuring consumer satisfaction is to look at how consumer complaints are resolved over time.If the institution is able to have lower than average dispute percentage across the board compared to others, it's a success indicator that the customers are more satisfied in that firm. Another success metrics is to be able to identify the major issues of each product service and develop solutions/recommendations of tackling them. 
 
 ### Estimated risks
-Since the data only contains complaints submitted to the CFPB, it is unlikely that the data fully reflects a financial insitution's own complaint records, therefore the result may not necessarily reflect the insitution's current state.
+Since the data only contains complaints submitted to the CFPB, it is unlikely that the data fully reflects a financial insitution's own complaint records, therefore the result may not necessarily reflect the insitution's current state. Another risk could be the data present across different institutions have relatively similar complaint statistics across different product/service, thus the causual analysis might be inconlusive, makes it difficult to rank the financial instituion's customer satisfactions. 
 
 
 ### Proposed project timeline
+
+1. Data Cleaning and Exploratory Data Analysis --- This will take 7 days (1 week)
+     *  Potentially utilize *RShiny* package for Data Visualization --- This will take 3 days
+
+3. Research and perform ML modeling  --- This will take 2 weeks
+     * Model specification
+     * Feature specification
+     * Calibration
+
+4. Project Deployment --- This will take 1 week including documentation, model evalualtion and maintenance. 
+
+
 
 
 
