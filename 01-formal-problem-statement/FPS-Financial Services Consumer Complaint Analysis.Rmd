@@ -17,7 +17,7 @@ An in-depth analysis using Data Science and Machine Learning techniques will hel
 
 The **`Consumer Financial Protection Bureau(CFPB)`** was a U.S government agency established under the **Consumer Protection Act**, also known as *Dodd-Frank Wall Street Reform Act* in July 2010. Its core mission is to watch out for American consumers in the market for consumer products and services, it would heighten government accountability by consolidating in one place responsibility of supervision and enforcement with respect to laws, and protect families from unfair, deceptive, and abusive financial practices.Its jurisdiction includes banks, credit unions, securities firms, payday lenders, mortage-servicing operations, foreclosure relief services, debt collections, and other financial companies operating in the United States. 
 
-####**The CFPB's primary focus includes**:
+#### **The CFPB's primary focus includes**:
 
 * Rooting out unfair, deceptive, or abusive acts or pratices by writing rules, supervising companies, and enforcing the law
 * Enforcing laws that outlaw discrimination in consumer finance
@@ -63,6 +63,13 @@ Since the data only contains complaints submitted to the CFPB, it is unlikely th
 
 
 ### Proposed project timeline
+1. Data Cleaning and Exploratory Data Analysis --- This will take 7 days (1 week)
+
+2. Potentially utilize *RShiny* package for Data Visualization --- This will take 3 days
+
+3. Research and perform ML modeling  --- This will take 2 weeks
+
+
 
 
 
