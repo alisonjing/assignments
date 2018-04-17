@@ -1,7 +1,7 @@
-Assignment: Initial Model or Analysis on Forest Fires
+###Assignment: Initial Model or Analysis on Forest Fires
 
-Old project on Financial Service Consumer Complaint is no longer used because the dataset is not suitable for making models and predictions. The formal problem statement will be add in shortly.
-================
+<span style="color:green">**Old project on Financial Service Consumer Complaint is no longer used because the dataset is not suitable for making models and predictions. The formal problem statement for forest fires will be add in shortly.**</span>
+
 
 Now that you have completed a *Formal Problem Statement (FPS)*, it is time to begin your analysis.
 
