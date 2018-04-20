@@ -2,7 +2,7 @@
 title: 'Formal Statement Problem: Predicting Burn Areas of Forest Fire in Northern
   Portugal'
 author: "Alison Jing Huang"
-Update date: 4/18/15
+Update date: 4/20/18
 output:
   pdf_document: default
   html_document: default
